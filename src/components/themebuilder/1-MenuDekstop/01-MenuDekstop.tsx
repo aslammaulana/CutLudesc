@@ -6,7 +6,6 @@ import {
 } from "@/components/ui/dropdown-menu"
 import Link from "next/link"
 import { HiChevronDown } from "react-icons/hi"
-import MenuMobile from "../3-MenuMobile/MenuMobile"
 
 export default function MenuDekstop() {
     return (
