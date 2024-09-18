@@ -46,12 +46,17 @@ export default function MenuDekstop() {
                     </DropdownMenuItem>
                 </DropdownMenuContent>
             </DropdownMenu>
-
+            {/* Price Menu */}
+            <Link href="/price">
+                <div className="flex items-center cursor-pointer text-[#3a3f3e]">
+                    <p>Product</p>
+                </div>
+            </Link>
             {/* Product Menu */}
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                     <div className="flex items-center cursor-pointer text-[#3a3f3e]">
-                        <p>Product</p>
+                        <p>Price</p>
                         <HiChevronDown className="ml-2" />
                     </div>
                 </DropdownMenuTrigger>
@@ -66,43 +71,19 @@ export default function MenuDekstop() {
                             Playground
                         </Link>
                     </DropdownMenuItem>
-                    <DropdownMenuItem asChild>
-                        <Link href="/products">
-                            Products
-                        </Link>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem asChild>
-                        <Link href="/products/achievement">
-                            Achievement
-                        </Link>
-                    </DropdownMenuItem>
-                    <DropdownMenuItem asChild>
-                        <Link href="/products/team">
-                            Team
-                        </Link>
-                    </DropdownMenuItem>
                 </DropdownMenuContent>
             </DropdownMenu>
-
-            {/* Price Menu */}
-            <Link href="/price">
-                <div className="flex items-center cursor-pointer text-[#3a3f3e]">
-                    <p>Price</p>
-                </div>
-            </Link>
-
             {/* Achievement Menu */}
             <Link href="/achievement">
                 <div className="flex items-center cursor-pointer text-[#3a3f3e]">
                     <p>Achievement</p>
                 </div>
             </Link>
-
             {/* About Menu */}
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                     <div className="flex items-center cursor-pointer text-[#3a3f3e]">
-                        <p>About</p>
+                        <p>About Us</p>
                         <HiChevronDown className="ml-2" />
                     </div>
                 </DropdownMenuTrigger>

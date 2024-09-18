@@ -23,6 +23,7 @@ export default function Navbar() {
                 </Link>
                 <div className="w-3/5">
                     <MenuDekstop/>
+                    
                 </div>
                 <div className="w-1/5 flex">
                     <div className="w-1/2 flex justify-around">
